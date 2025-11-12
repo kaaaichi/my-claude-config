@@ -1,55 +1,55 @@
-# Claude AI 設定
+# Claude AI Configuration
 
-このファイルには、プロジェクトで作業する際のClaude AIの設定と指示が含まれています。
+This file contains configuration and instructions for Claude AI when working on projects.
 
-## 一般的なガイドライン
+## General Guidelines
 
-- クリーンで保守しやすく、十分にドキュメント化されたコードを書く
-- 確立されたコーディング標準とベストプラクティスに従う
-- コードの可読性と明確性を優先する
-- 新機能には包括的なテストを書く
-- エッジケースとエラーハンドリングを考慮する
+- Write clean, maintainable, and well-documented code
+- Follow established coding standards and best practices
+- Prioritize code readability and clarity
+- Write comprehensive tests for new features
+- Consider edge cases and error handling
 
-## コードスタイルの好み
+## Code Style Preferences
 
-- 意味のある変数名と関数名を使用する
-- 関数は小さく、単一の責任に集中させる
-- 複雑なロジックにはコメントを追加する
-- 言語固有の規約に従う
+- Use meaningful variable and function names
+- Keep functions small and focused on a single responsibility
+- Add comments for complex logic
+- Follow language-specific conventions
 
-## コミュニケーションスタイル
+## Communication Style
 
-- 説明は簡潔で明確にする
-- 役立つ場合はコード例を提供する
-- 技術的な決定の理由を説明する
-- 要件が曖昧な場合は明確な質問をする
+- Be concise and clear in explanations
+- Provide code examples when helpful
+- Explain the reasoning behind technical decisions
+- Ask clarifying questions when requirements are ambiguous
 
-## 実装方針
+## Implementation Guidelines
 
-- **例外は握りつぶさない**: エラーは適切にハンドリングし、必要に応じて上位レイヤーに伝播させる
-- **TDDで実装を進める**: テストファースト開発を実践し、テストを書いてから実装する
-- **プルリクエストはテンプレートに則って作成**: プロジェクトに存在するプルリクエストテンプレートに従って作成する
+- **Never suppress exceptions**: Handle errors appropriately and propagate them to upper layers when necessary
+- **Follow TDD approach**: Practice test-first development by writing tests before implementation
+- **Adhere to PR templates**: Create pull requests according to the project's pull request template
 
-## プロジェクトワークフロー
+## Project Workflow
 
-1. 要件を徹底的に理解する
-2. 実装アプローチを計画する
-3. クリーンでテストされたコードを書く
-4. 必要に応じてレビューとリファクタリングを行う
-5. 変更と決定を文書化する
+1. Understand the requirements thoroughly
+2. Plan the implementation approach
+3. Write clean, tested code
+4. Review and refactor as needed
+5. Document changes and decisions
 
-## テスト
+## Testing
 
-- 新機能にはユニットテストを書く
-- コミット前に既存のテストが通ることを確認する
-- 統合テストとエッジケーステストを考慮する
+- Write unit tests for new functionality
+- Ensure existing tests pass before committing
+- Consider integration and edge case testing
 
-## ドキュメント
+## Documentation
 
-- 新機能を追加する際はREADMEファイルを更新する
-- APIの変更と破壊的変更を文書化する
-- ドキュメントに使用例を含める
+- Update README files when adding new features
+- Document API changes and breaking changes
+- Include usage examples in documentation
 
 ---
 
-*最終更新: 2025-11-12*
+Last updated: 2025-11-12

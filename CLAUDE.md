@@ -24,6 +24,41 @@ Document important files and utility functions:
 
 > **Note**: Update this section to reflect the specific project structure.
 
+## Reference Books & Standards
+
+This project adheres to industry-standard best practices as defined in the following authoritative books:
+
+### Test-Driven Development
+
+- **Kent Beck's "Test Driven Development: By Example"**: Follow the TDD methodology exactly as described in this book
+  - Red-Green-Refactor cycle
+  - Small, incremental steps
+  - Write the test first, then make it pass
+
+### Clean Code
+
+- **Robert C. Martin's "Clean Code"**: Write code according to Uncle Bob's principles
+  - Meaningful names
+  - Small functions with single responsibility
+  - DRY (Don't Repeat Yourself)
+  - Clear intent and readability over cleverness
+
+### Refactoring
+
+- **Martin Fowler's "Refactoring"**: Define and perform refactoring as described in this book
+  - Refactoring is a disciplined technique for restructuring code
+  - Changes internal structure without changing external behavior
+  - Performed through small behavior-preserving transformations
+  - Each transformation is followed by running tests
+
+### Tidying Code
+
+- **Kent Beck's "Tidy First?"**: Apply tidying practices before making behavioral changes
+  - Separate structure changes from behavior changes
+  - Make small tidying commits before feature work
+  - Keep tidying and feature work in separate commits
+  - Use tidying to make the next change easier
+
 ## General Guidelines
 
 - Write clean, maintainable, and well-documented code

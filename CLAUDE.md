@@ -87,6 +87,10 @@ This project adheres to industry-standard best practices as defined in the follo
 - **Follow TDD approach**: Practice test-first development by writing tests before implementation
 - **Adhere to PR templates**: Create pull requests according to the project's pull request template
 - **Update local main branch before starting tasks**: When working on git-managed source code, always update the local main branch to the latest version before starting development tasks
+- **Use git worktree for feature development**: When working on git-managed code, always use `git worktree` to create a separate working directory for each feature branch. This keeps the main working directory clean and allows parallel development on multiple features
+  - Create a new worktree: `git worktree add ../feature-branch-name feature-branch-name`
+  - List worktrees: `git worktree list`
+  - Remove worktree when done: `git worktree remove ../feature-branch-name`
 
 ## Project Workflow
 

@@ -22,6 +22,15 @@ Claude AIの設定を管理するパブリックリポジトリです。
 | --- | --- |
 | `python-expert` | Python開発タスク（コーディング、デバッグ、テスト、パッケージ管理など） |
 | `code-reviewer` | コードレビュー（PR、品質分析、セキュリティ監査、パフォーマンスチェック） |
+| `api-designer` | REST/GraphQL API設計、OpenAPI仕様、認証パターン |
+| `backend-developer` | サーバーサイド開発（Node.js、Python、Go）、マイクロサービス |
+| `frontend-developer` | UI/UX開発（React、Vue、Angular）、アクセシビリティ |
+| `typescript-pro` | TypeScript開発、型システム、フルスタック型安全性 |
+| `python-pro` | Python 3.11+開発、型安全、非同期プログラミング、データサイエンス |
+| `llm-architect` | LLMアーキテクチャ、RAG実装、ファインチューニング、プロンプトエンジニアリング |
+| `scrum-master` | アジャイル手法、スクラム、チームファシリテーション、継続的改善 |
+| `technical-writer` | 技術文書、API ドキュメント、ユーザーガイド |
+| `architect-reviewer` | アーキテクチャレビュー、システム設計検証、技術的意思決定評価 |
 
 ### 全プロジェクトで利用する方法
 

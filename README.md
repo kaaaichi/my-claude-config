@@ -63,11 +63,13 @@ cp .claude/agents/*.md ~/.claude/agents/
 
 このリポジトリには、各サブエージェント用のスラッシュコマンドが含まれています。
 
+> **注**: `/code-reviewer`コマンドはスキル化されており、実行時にCLAUDE.mdのコードレビューガイドライン（9つのレビュー観点）に従ってレビューを実行します。
+
 ### 利用可能なコマンド
 
 | コマンド | 説明 |
 | --- | --- |
-| `/code-reviewer <PR URL>` | 指定したプルリクエストをcode-reviewerサブエージェントでレビュー |
+| `/code-reviewer <PR URL>` | 指定したPRをCLAUDE.mdのコードレビューガイドラインに従ってレビュー（スキル化） |
 | `/api-designer <要件>` | API設計またはレビュー（api-designerサブエージェント使用） |
 | `/architect-reviewer <トピック>` | システムアーキテクチャレビュー（architect-reviewerサブエージェント使用） |
 | `/backend-developer <タスク>` | バックエンド開発タスク実行（backend-developerサブエージェント使用） |
